@@ -140,18 +140,130 @@ es_divisible = n % 3 == 0 and n % 5 == 0
 print(f"¿{n} es divisible por 3 y 5? {es_divisible}")
 ```
 
+```python
+# Ejercicio 16: Números en orden estricto
+a, b, c = 5, 10, 15
+en_orden = a < b < c
+print(f"¿{a}, {b}, {c} están en orden ascendente estricto? {en_orden}")
+```
+
+```python
+# Ejercicio 17: Comparación doble
+x = 15
+a = 10
+b = 20
+esta_entre = a < x < b
+print(f"¿{x} está estrictamente entre {a} y {b}? {esta_entre}")
+```
+
+```python
+# Ejercicio 18: Relación proporcional
+a = 20
+b = 10
+es_doble = a == 2 * b
+print(f"¿{a} es exactamente el doble de {b}? {es_doble}")
+```
+
+```python
+# Ejercicio 19: Cambio de signo si negativo
+x = -7
+if x < 0:
+    x = -x
+print(f"El valor positivo es: {x}")
+```
+
+```python
+# Ejercicio 20: Detección de tipo
+x = 3.14
+if isinstance(x, int):
+    tipo = "entero (int)"
+elif isinstance(x, float):
+    tipo = "flotante (float)"
+elif isinstance(x, str):
+    tipo = "cadena (str)"
+else:
+    tipo = "otro tipo"
+print(f"La variable x es de tipo: {tipo}")
+```
+
+```python
+# Ejercicio 21: ¿Puede votar?
+edad = 20
+tiene_documento = True
+puede_votar = edad >= 18 and tiene_documento
+print(f"¿Puede votar? {puede_votar}")
+```
+
+```python
+# Ejercicio 22: Control de acceso lógico
+tiene_pase_vip = False
+paga_entrada = True
+esta_ebrio = False
+puede_entrar = tiene_pase_vip or (paga_entrada and not esta_ebrio)
+print(f"¿Puede entrar? {puede_entrar}")
+```
 
 
+```python
+# Ejercicio 23: Validación XOR
+cond1 = True
+cond2 = False
+xor = (cond1 or cond2) and not (cond1 and cond2)
+print(f"¿Exactamente una condición es verdadera? {xor}")
+```
 
+```python
+# Ejercicio 24: Validación compuesta múltiple
+n = 6
+cumple_condicion = n > 0 and (n % 2 == 0 or n % 3 == 0)
+print(f"¿{n} es positivo y múltiplo de 2 o 3? {cumple_condicion}")
+```
 
+```python
+# Ejercicio 25: Condición contradictoria
+x = 3
+condicion_contradictoria = x > 5 and x < 1
+print(f"¿Se cumple la condición contradictoria? {condicion_contradictoria}")
+```
 
+```python
+# Ejercicio 26: Negación lógica
+x = 15
+condicion_original = x > 10
+condicion_negada = not (x <= 10)
+print(f"Condición original: {condicion_original}")
+print(f"Condición negada: {condicion_negada}")
+```
 
+```python
+# Ejercicio 27: Aprobación de estudiante
+nota = 3.5
+asistencia = 85
+aprueba = nota >= 3.0 and asistencia >= 80
+print(f"¿El estudiante aprueba? {aprueba}")
+```
 
+```python
+# Ejercicio 28: Simulación de alarma
+temperatura = -2
+humedad = 85
+alarma = (temperatura < 0 or temperatura > 38) and humedad > 80
+print(f"¿Se activa la alarma? {alarma}")
+```
 
+```python
+# Ejercicio 29: Contraseña segura
+contrasena = "Segura123"
+es_segura = len(contrasena) > 8 and any(c.isdigit() for c in contrasena)
+print(f"¿La contraseña cumple con los requisitos? {es_segura}")
+```
 
-
-
-
+```python
+# Ejercicio 30: Doble negación lógica
+tiene_acceso = False
+expresion = not (not tiene_acceso)
+print(f"No es falso que no tenga acceso: {expresion}")
+```
 
 
 
