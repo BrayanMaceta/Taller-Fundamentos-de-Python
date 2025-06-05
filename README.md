@@ -6,14 +6,14 @@ Taller – Fundamentos de Python Brayan Maceta
 a = 5
 b = 10
 print(f"Antes del intercambio: a = {a}, b = {b}")
-```
+
 # Intercambio usando operaciones aritméticas
 a = a + b
 b = a - b
 a = a - b
 
 print(f"Después del intercambio: a = {a}, b = {b}")
-
+```
 Ejercicio 2
 
 Ejercicio 3
