@@ -1,12 +1,12 @@
 # Taller-Fundamentos-de-Python
 Taller – Fundamentos de Python Brayan Maceta
 
-Ejercicio 1
+```python
 # Ejercicio 1: Intercambio sin variable auxiliar
 a = 5
 b = 10
 print(f"Antes del intercambio: a = {a}, b = {b}")
-
+```
 # Intercambio usando operaciones aritméticas
 a = a + b
 b = a - b
